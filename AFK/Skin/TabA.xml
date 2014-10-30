@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<Window size="630,360" caption="0,0,0,30" roundcorner="12,12" sizebox="4,4,4,4">
+
+	<Font name = "YaHei Consolas Hybrid" size = "14" default = "ture"/>
+
+	<VerticalLayout name="bg" bkimage = "file='$LoginSkin.png'">
+		
+		<!--标题水平容器-->
+		<HorizontalLayout height="34">
+				
+				<VerticalLayout width = "5"/>
+				
+				<VerticalLayout width = "34">
+					<HorizontalLayout height = "8" />
+					<Label width = "34" height = "24" bkimage = "file = '$kbn.png'"/>
+				</VerticalLayout>
+
+				<Label text = "郝营800012 权益592875.21 风险指数 【正常】" font = "YaHei Consolas Hybrid" textcolor = "0xFFFFFFFF" align="left"/>
+
+		</HorizontalLayout>
+
+		<!--操作水平容器-->
+		<HorizontalLayout height="74">
+		
+			<VerticalLayout width="10"/>
+			
+			<Button name = "XXX" width="112" height = "68" bkimage = "file = '$LOGO.PNG'"/>
+			
+			<VerticalLayout width="8"/>
+			
+			<VerticalLayout width="55">
+				<CheckBox name = "XXX" width="55" height = "32" bkimage = "$固定复选.png" selectedimage = "$手数按钮.png"/>
+				<Label name = "XXX" width="55" height = "33" bkimage = "file = '$手数标签.png'"/>
+			</VerticalLayout>			
+			
+			<VerticalLayout width="8"/>
+			
+			<VerticalLayout width="57">
+				<Edit name = "XXX" width="57" height = "28" borderround = "5, 5" bkimage = "file = '$调节数字编辑框.png'" font = "YaHei Consolas Hybrid" textcolor = "0xFF000000"/>
+				
+				<HorizontalLayout height="3"/>
+				
+				<Edit name = "XXX" width="57" height = "28" borderround = "5, 5" bkimage = "file = '$调节数字编辑框.png'" font = "YaHei Consolas Hybrid" textcolor = "0xFF000000"/>
+			</VerticalLayout>
+			
+			<VerticalLayout width="15">
+				<Button name = "XXX" width="15" height = "14" bkimage = "file = '$上按钮.png'"/>
+				<Button name = "XXX" width="15" height = "14" bkimage = "file = '$下按钮.png'"/>
+				
+				<HorizontalLayout height="3"/>
+				
+				<Button name = "XXX" width="15" height = "14" bkimage = "file = '$上按钮.png'"/>
+				<Button name = "XXX" width="15" height = "14" bkimage = "file = '$下按钮.png'"/>
+			</VerticalLayout>
+						
+			<VerticalLayout width="8"/>
+			
+			<VerticalLayout width="26">
+				<Option name = "XXX" width="26" height = "26" bkimage = "file = '$5%1.png'" selectedimage = "$5%2.png"/>
+				
+				<HorizontalLayout height="3"/>
+				
+				<Option name = "XXX" width="26" height = "26" bkimage = "file = '$二分之一1.png'" selectedimage = "$二分之一2.png"/>
+			</VerticalLayout>
+			
+			<VerticalLayout width="3"/>
+			
+			<VerticalLayout width="26">
+				<Option name = "XXX" width="26" height = "26" bkimage = "file = '$三分之一1.png'" selectedimage = "$三分之一2.png"/>
+				
+				<HorizontalLayout height="3"/>
+				
+				<Option name = "XXX" width="26" height = "26" bkimage = "file = '$满1.png'" selectedimage = "$满2.png"/>
+			</VerticalLayout>
+			
+			<VerticalLayout width="8"/>
+			
+			<Button name = "XXX" width="61" height = "59" bkimage = "file = '$买1.png'" pushedimage = "file = '$买2.png'" hotimage = "file = '$买3.png'"/>
+			
+			<VerticalLayout width="8"/>
+			
+			<Button name = "XXX" width="61" height = "59" bkimage = "file = '$卖1.png'" pushedimage = "file = '$卖2.png'" hotimage = "file = '$卖3.png'"/>
+			
+			<VerticalLayout width="8"/>
+			
+			<VerticalLayout width="66">
+				<Button name = "XXX" width="66" height = "35" bkimage = "file = '$全平1.png'" pushedimage = "file = '$全平2.png'" pushedimage = "file = '$全平3.png'"/>
+				<Button name = "XXX" width="66" height = "35" bkimage = "file = '$全撤1.png'" pushedimage = "file = '$全撤2.png'" pushedimage = "file = '$全撤3.png'"/>
+			</VerticalLayout>
+			
+			<VerticalLayout width="8"/>
+			
+			<Button name = "XXX" width="66" height = "66" bkimage = "file = '$笔记开关1.png'" pushedimage = "file = '$笔记开关2.png'"/>
+
+		</HorizontalLayout>
+		
+		
+		
+		
+		<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+		<HorizontalLayout width = "630" height = "230">
+		
+		
+			<!-- 垂直容器一 -->
+			<VerticalLayout width = "400" height = "240">
+			
+				<!--信息水平容器-->
+				<HorizontalLayout width = "400" height="20">
+
+					<Option name = "行情列表" width="77" height = "20" textcolor = "0xFF9ED7FF" text = "行情列表" hotimage = "file = 'Tab背景.PNG'"/>
+					<Option name = "帐户/持仓" width="77" height = "20" textcolor = "0xFF9ED7FF" text = "帐户/持仓" hotimage = "file = 'Tab背景.PNG'"/>
+					<Option name = "委托" width="50" height = "20" textcolor = "0xFF9ED7FF" text = "委托" hotimage = "file = 'Tab背景.PNG'"/> 
+					<Option name = "已成" width="50" height = "20" textcolor = "0xFF9ED7FF" text = "已成" hotimage = "file = 'Tab背景.PNG'"/>
+					<Option name = "已撒" width="50" height = "20" textcolor = "0xFF9ED7FF" text = "已撒" hotimage = "file = 'Tab背景.PNG'"/>
+					<Option name = "帮助" width="50" height = "20" textcolor = "0xFF9ED7FF" text = "帮助" hotimage = "file = 'Tab背景.PNG'"/>
+				
+				</HorizontalLayout>
+				
+				<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>动态信息水平容器<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+				
+				<HorizontalLayout height="209">
+					
+					<VerticalLayout width="400">
+					
+						<!--Tab水平容器-->
+						<HorizontalLayout height="25" bold = "true" italic = "false">
+							<Label width = "100" align="center" textcolor = "FF32BCF5" text = "合约名称"/>
+							<Label width = "50" align="center" textcolor = "FF32BCF5" text = "开盘"/>
+							<Label width = "45" align="center" textcolor = "FF32BCF5" text = "最高"/>
+							<Label width = "43" align="center" textcolor = "FF32BCF5" text = "最低"/>
+							<Label width = "42" align="center" textcolor = "FF32BCF5" text = "当前"/>
+							<Label width = "55" align="center" textcolor = "FF32BCF5" text = "涨跌副"/>
+							<Label width = "60" align="center" textcolor = "FF32BCF5" text = "实时成交"/>
+						</HorizontalLayout>
+						
+						<HorizontalLayout width="400">
+						
+							<VerticalLayout width = "30"/>
+				
+							<List name="ListCtrl" inset="0,0,0,0" itemalign="center" itembkcolor="#FFE2DDDF">
+								
+								<ListHeader height = "20" menu = "true">
+									<ListHeaderItem text="焦炭 J1401" width="88" textcolor = "FFEB6100" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1651" width="45" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1673" width="45" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1649" width="45" textcolor = "FF8FC31F" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1668" width="45" textcolor = "FFFFF45C" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1.35%" width="55" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="19" width="25" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+								</ListHeader>
+								<ListHeader height="20" menu="true">
+									<ListHeaderItem text="焦炭 J1401" width="88" textcolor = "FFEB6100" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1651" width="45" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1673" width="45" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1649" width="45" textcolor = "FF8FC31F" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1668" width="45" textcolor = "FFFFF45C" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1.35%" width="55" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="19" width="25" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+								</ListHeader>
+								<ListHeader height="20" menu="true">
+									<ListHeaderItem text="焦炭 J1401" width="88" textcolor = "FFEB6100" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1651" width="45" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1673" width="45" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1649" width="45" textcolor = "FF8FC31F" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1668" width="45" textcolor = "FFFFF45C" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1.35%" width="55" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="19" width="25" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+								</ListHeader>
+								<ListHeader height="20" menu="true">
+									<ListHeaderItem text="焦炭 J1401" width="88" textcolor = "FFEB6100" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1651" width="45" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1673" width="45" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1649" width="45" textcolor = "FF8FC31F" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1668" width="45" textcolor = "FFFFF45C" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1.35%" width="55" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="19" width="25" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+								</ListHeader>
+								<ListHeader height="20" menu="true">
+									<ListHeaderItem text="焦炭 J1401" width="88" textcolor = "FFEB6100" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1651" width="45" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1673" width="45" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1649" width="45" textcolor = "FF8FC31F" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1668" width="45" textcolor = "FFFFF45C" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1.35%" width="55" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="19" width="25" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+								</ListHeader>
+								<ListHeader height = "20" menu = "true">
+									<ListHeaderItem text="焦炭 J1401" width="88" textcolor = "FFEB6100" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1651" width="45" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1673" width="45" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1649" width="45" textcolor = "FF8FC31F" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1668" width="45" textcolor = "FFFFF45C" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1.35%" width="55" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="19" width="25" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+								</ListHeader>
+								<ListHeader height = "20" menu = "true">
+									<ListHeaderItem text="焦炭 J1401" width="88" textcolor = "FFEB6100" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1651" width="45" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1673" width="45" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1649" width="45" textcolor = "FF8FC31F" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1668" width="45" textcolor = "FFFFF45C" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1.35%" width="55" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="19" width="25" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+								</ListHeader>
+								<ListHeader height = "20" menu = "true">
+									<ListHeaderItem text="焦炭 J1401" width="88" textcolor = "FFEB6100" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1651" width="45" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1673" width="45" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1649" width="45" textcolor = "FF8FC31F" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1668" width="45" textcolor = "FFFFF45C" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1.35%" width="55" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="19" width="25" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+								</ListHeader>
+								<ListHeader height = "20" menu = "true">
+									<ListHeaderItem text="焦炭 J1401" width="88" textcolor = "FFEB6100" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1651" width="45" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1673" width="45" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1649" width="45" textcolor = "FF8FC31F" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1668" width="45" textcolor = "FFFFF45C" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="1.35%" width="55" textcolor = "FFBE0B21" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+									<ListHeaderItem text="19" width="25" textcolor = "FFFFFFFF" hotimage="file='$ListCtrl.png'" normalimage = "下划线.PNG" sepwidth="1"/>
+								</ListHeader>
+								
+							</List>
+							
+						</HorizontalLayout>
+						
+					</VerticalLayout>
+					
+				</HorizontalLayout>
+
+				<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>动态信息水平容器<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+				
+			</VerticalLayout>
+			
+			
+			
+			
+			
+			
+			<!-- 垂直容器二 -->
+			<VerticalLayout width = "206" height = "240">
+			
+				<!--  股票信息垂直容器 -->
+				<VerticalLayout>
+				
+					<VerticalLayout width="206">						
+						<Label name = "螺纹钢 RB1401" text = "螺纹钢 RB1401" font="YaHei Consolas Hybrid" textcolor =  "FF76FAF8" height = "30"/>
+						
+						<HorizontalLayout>
+							<Label name = "4043" text = "4041" font="YaHei Consolas Hybrid" textcolor =  "FF00FF00" height = "25"/>
+							<Label name = "1968" text = "1968" font="YaHei Consolas Hybrid" textcolor =  "FF00FF00" height = "25"/>
+						</HorizontalLayout>
+			
+						<Label name = "XXX" height = "18" bkimage = "file = '进度比例条.png'"/>
+						
+						<HorizontalLayout>
+							<Label name = "4041" text = "4041" font="YaHei Consolas Hybrid" textcolor =  "FFFF0000" height = "25"/>
+							<Label name = "3564" text = "3564" font="YaHei Consolas Hybrid" textcolor =  "FFFF0000" height = "25"/>
+						</HorizontalLayout>
+						
+						<HorizontalLayout>
+							<Label name = "浮动盈亏" text = "浮动盈亏" font="YaHei Consolas Hybrid" textcolor =  "FFC0C0C0" height = "25"/>
+							<Label name = "906.59" text = "906.59" font="YaHei Consolas Hybrid" textcolor =  "FFE4AC14" height = "25"/>
+						</HorizontalLayout>
+						
+						<HorizontalLayout>
+							<Label name = "盈亏比例" text = "盈亏比例" font="YaHei Consolas Hybrid" textcolor =  "FFC0C0C0" height = "25"/>
+							<Label name = "0.07%" text = "0.07%" font="YaHei Consolas Hybrid" textcolor =  "FFE4AC14" height = "25"/>
+						</HorizontalLayout>
+						
+						<HorizontalLayout>
+							<Label name = "资金占用" text = "资金占用" font="YaHei Consolas Hybrid" textcolor =  "FFC0C0C0" height = "25"/>
+							<Label name = "-49.51%" text = "-49.51%" font="YaHei Consolas Hybrid" textcolor =  "FFE4AC14" height = "25"/>
+						</HorizontalLayout>
+						
+						<HorizontalLayout>
+							<Label name = "当前持仓" text = "当前持仓" font="YaHei Consolas Hybrid" textcolor =  "FFC0C0C0" height = "25"/>
+							<Label name = "134" text = "134" font="YaHei Consolas Hybrid" textcolor =  "FFE4AC14" height = "25"/>
+						</HorizontalLayout>
+						
+					</VerticalLayout>
+				
+				</VerticalLayout>
+			
+			</VerticalLayout>
+
+			
+		</HorizontalLayout>
+			
+
+		
+		
+		
+		<!--底标题水平容器-->
+		<HorizontalLayout height="21">	
+
+			<Label text = "数据网管" textcolor = "FF9ACAF6" align = "right" width="58" height = "21"/>
+			<Button name = "XXX" width="12" height = "12" bkimage = "file = '$数据网关状态.PNG'"/>
+			
+			<Label text = "交易网关" textcolor = "FF9ACAF6" align = "right" width="51" height = "21"/>
+			<Button name = "XXX" width="12" height = "12" bkimage = "file = '$交易网关状态.PNG'"/> 
+			
+			<Label width = "20"/>
+			<Label width = "330" text="年盈利273%实战高手马岩讲期货，20：30呱呱3812房间" textcolor = "0xFFFDC416" align="left"/>
+			<Label width = "135" text="系统时间：01:49:05" font = "1" textcolor = "0xFF7BB6FE" align="left"/>
+		
+		</HorizontalLayout>
+		
+    </VerticalLayout>
+	
+</Window>
