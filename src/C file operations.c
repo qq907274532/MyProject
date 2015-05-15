@@ -47,5 +47,5 @@ int main(int argc, char* argv[])
     fpFile = NULL;
   }
 
-	return 0;
+  return 0;
 }
