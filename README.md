@@ -1,11 +1,3 @@
 MyProject
 
-#Android
-
-#C#.net
-
-#C&C++
-
-#Java
-
-#Masm
+用来整理项目代码
