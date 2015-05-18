@@ -1,3 +1,11 @@
-AFK
-===
-常小康到此一游
+MyProject
+
+#Android
+
+#C#.net
+
+#C&C++
+
+#Java
+
+#Masm
