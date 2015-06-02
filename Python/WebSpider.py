@@ -1,9 +1,20 @@
-import os
-import urllib2
+#!/usr/bin/python
+import re
+import urllib
 
-req = urllib2.Request('http://www.baidu.com')
-response = urllib2.urlopen(req)
-the_page = response.read()
-print the_page
+def getHtml(url):
+	page = urllib.urlopen(url)
+	html = page.read()
+	return html
 
-os.system("pause")
+def getImg(html):
+	reg = r'delay='(.+?\.jpg!mid)' /'
+	imgre = re.compile(reg)
+	imglist = re.findall(imgre, html)
+	x = 0
+	for imgurl in imglist:
+		urllib.urlretrieve(imgurl, '%s.jpg' %x)
+		x+=1
+
+html = getHtml("http://tieba.baidu.com/p/3797948187")
+getImg(html)
