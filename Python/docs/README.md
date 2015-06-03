@@ -1,1 +1,15 @@
 ﻿###Python 用来保存学习笔记代
+
+##Python文件类型
+
+###源代码
+  Python 源代码文件以".py"为扩展名，有Python程序解释，不需要编译。
+
+###字节代码
+  Python 源代码文件经过编译后，生成扩展名为 ".pyc" 的文件。
+  编译方法：import py_compile
+	          py_compile.compile("hello.py")
+
+###优化代码
+  经过优化的源文件，扩展名为".pyo"
+  python -O -m py_compile Hello.py
