@@ -6,8 +6,7 @@ char* MyStrCpy(char* szDst, const char* szSrc)
 {
   char* szTemp = szDst;
 
-  while(*szTemp++ = *szSrc++)
-    ;
+  while(*szTemp++ = *szSrc++) ;
 
   return szDst;
 }
