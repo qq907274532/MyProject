@@ -17,4 +17,9 @@ StrCmp(nNumA, nNumB)
 StrCmp(20)
 
 print "==================================="
+def fun():
+	return "Hello, wrod!"
 
+fun()
+
+print "==================================="
