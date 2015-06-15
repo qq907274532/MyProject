@@ -3,8 +3,6 @@
 
 import re
 
-p = re.compile("ab")
-
 s1 = "tcp"
 s2 = "tcp tbp tcp"
 s3 = "tap tbp tcp tbp tcp tdp"
