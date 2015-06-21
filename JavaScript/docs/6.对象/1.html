@@ -1,0 +1,25 @@
+<html>
+
+<body>
+
+<script>
+
+	function Rect(nX, nY)
+	{
+		this.width = nX;
+		this.height = nY;
+
+		this.area = function()
+		{
+			return this.width * this.height;
+		}
+	}
+
+	var r = new Rect(5, 8);
+	alert(r.area());
+	
+</script>
+
+</body>
+
+</html>
